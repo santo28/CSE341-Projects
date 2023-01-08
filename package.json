@@ -2,9 +2,10 @@
   "name": "cse341-projects",
   "version": "1.0.0",
   "description": "Back End 2 class projects BYUI",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,8 @@
   },
   "homepage": "https://github.com/santo28/CSE341-Projects#readme",
   "dependencies": {
-    "express": "^4.17.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "npx": "^10.2.2"
   }
-  
 }
