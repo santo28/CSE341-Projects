@@ -4,7 +4,7 @@
   "description": "Back End 2 class projects BYUI",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon src/server.js",
+    "test": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
